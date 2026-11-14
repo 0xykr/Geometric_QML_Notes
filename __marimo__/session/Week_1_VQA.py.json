@@ -1,0 +1,67 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.1",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "AtBE",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SzmM",
+      "code_hash": "eca02b11f87d1c7a4876cc0a327ef7bd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"variational-quantum-algorithms\">Variational Quantum Algorithms</h1>\n<h2 id=\"what-is-a-variational-quantum-circuit-vqc\">What is a Variational Quantum Circuit (VQC)?</h2>\n<span class=\"paragraph\">Variational quantum circuits are quantum circuits whose gates depend on adjustable parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta} = (\\theta_1, \\theta_2, \\dots, \\theta_n)||)</marimo-tex>. We think of these parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta}||)</marimo-tex> as trainable weights in an ML model. </span>\n<h2 id=\"why-vqcs\">Why VQCs?</h2>\n<span class=\"paragraph\">VQCs can do ...</span>\n<span class=\"paragraph\">An example of a VQC is ...</span>\n<h2 id=\"what-is-a-variational-quantum-algorithm-vqa\">What is a Variational Quantum Algorithm (VQA)?</h2>\n<span class=\"paragraph\">A VQA is ...</span>\n<h2 id=\"parts-of-a-vqa\">Parts of a VQA</h2>\n<h3 id=\"cost-function\">Cost Function</h3>\n<span class=\"paragraph\">A cost function is ...</span>\n<h3 id=\"gradient-descent\">Gradient Descent</h3>\n<span class=\"paragraph\">Gradient descent is ...</span>\n<h3 id=\"ansatz\">Ansatz</h3>\n<span class=\"paragraph\">An ansatz is ...</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kolV",
+      "code_hash": "97acf59eaf215f1ba93b995baea394c7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"vqa-example-qaoa\">VQA Example (QAOA)</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wtVx",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "tQwb",
+      "code_hash": "5bd3c4d3f970890731cc5f1f5f88e146",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Talk about important lines of code, etc, make sure to clearly link the contents of the code to the explanations above</span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
