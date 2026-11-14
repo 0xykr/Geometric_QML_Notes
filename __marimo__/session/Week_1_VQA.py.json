@@ -1,12 +1,12 @@
 {
   "version": "1",
   "metadata": {
-    "marimo_version": "0.25.1",
+    "marimo_version": "0.25.2",
     "script_metadata_hash": null
   },
   "cells": [
     {
-      "id": "AtBE",
+      "id": "Hbol",
       "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
       "outputs": [
         {
@@ -19,20 +19,20 @@
       "console": []
     },
     {
-      "id": "SzmM",
-      "code_hash": "eca02b11f87d1c7a4876cc0a327ef7bd",
+      "id": "MJUe",
+      "code_hash": "d6fe6f4de3e5d6eab20763489e76a899",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"variational-quantum-algorithms\">Variational Quantum Algorithms</h1>\n<h2 id=\"what-is-a-variational-quantum-circuit-vqc\">What is a Variational Quantum Circuit (VQC)?</h2>\n<span class=\"paragraph\">Variational quantum circuits are quantum circuits whose gates depend on adjustable parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta} = (\\theta_1, \\theta_2, \\dots, \\theta_n)||)</marimo-tex>. We think of these parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta}||)</marimo-tex> as trainable weights in an ML model. </span>\n<h2 id=\"why-vqcs\">Why VQCs?</h2>\n<span class=\"paragraph\">VQCs can do ...</span>\n<span class=\"paragraph\">An example of a VQC is ...</span>\n<h2 id=\"what-is-a-variational-quantum-algorithm-vqa\">What is a Variational Quantum Algorithm (VQA)?</h2>\n<span class=\"paragraph\">A VQA is ...</span>\n<h2 id=\"parts-of-a-vqa\">Parts of a VQA</h2>\n<h3 id=\"cost-function\">Cost Function</h3>\n<span class=\"paragraph\">A cost function is ...</span>\n<h3 id=\"gradient-descent\">Gradient Descent</h3>\n<span class=\"paragraph\">Gradient descent is ...</span>\n<h3 id=\"ansatz\">Ansatz</h3>\n<span class=\"paragraph\">An ansatz is ...</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"variational-quantum-algorithms\">Variational Quantum Algorithms</h1>\n<h2 id=\"what-is-a-variational-quantum-circuit-vqc\">What is a Variational Quantum Circuit (VQC)?</h2>\n<span class=\"paragraph\">Variational quantum circuits are quantum circuits whose gates depend on adjustable parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta} = (\\theta_1, \\theta_2, \\dots, \\theta_n)||)</marimo-tex>. We think of these parameters <marimo-tex class=\"arithmatex\">||(\\bm{\\theta}||)</marimo-tex> as trainable weights in an ML model.</span>\n<h2 id=\"what-is-a-variational-quantum-algorithm-vqa\">What is a Variational Quantum Algorithm (VQA)?</h2>\n<span class=\"paragraph\">A VQA is an algorithm that runs on a VQC that tries to minimize some cost function by using a QC to evaluate cost function and then performing classical calculations to update our parameters theta.</span>\n<h2 id=\"why-vqas\">Why VQAs?</h2>\n<span class=\"paragraph\">Oftentimes, to solve a problem, we want to minimize something. (add examples here).\nFor any state <marimo-tex class=\"arithmatex\">||(\\ket{\\Phi}||)</marimo-tex> we define</span>\n<marimo-tex class=\"arithmatex\">||[E(\\Phi)=\\frac{\\braket{\\Phi | H | \\Phi}}{\\braket{\\Phi|\\Phi}} ||]</marimo-tex><span class=\"paragraph\">This is the Raleigh Quotient and has property: <marimo-tex class=\"arithmatex\">||(E(\\Phi) \\ge E_0||)</marimo-tex> for all <marimo-tex class=\"arithmatex\">||(\\ket{\\Phi}||)</marimo-tex> in Hilbert space.\\ \\\nThis converts an \\textbf{eigenvalue problem} (hard, requires diagonalizing a <marimo-tex class=\"arithmatex\">||(2^N \\times 2^N||)</marimo-tex> matrix) into an \\textbf{optimization problem} (i.e. search over some family of trial states <marimo-tex class=\"arithmatex\">||(\\ket{\\Phi(\\bm{\\theta})}||)</marimo-tex> for the one that minimizes <marimo-tex class=\"arithmatex\">||(E(\\Phi(\\bm{\\theta}))||)</marimo-tex>.</span>\n<h2 id=\"parts-of-a-vqa\">Parts of a VQA</h2>\n<h3 id=\"cost-function\">Cost Function</h3>\n<span class=\"paragraph\">A cost function is ...</span>\n<h3 id=\"gradient-descent\">Gradient Descent</h3>\n<span class=\"paragraph\">Gradient descent is ...</span>\n<h3 id=\"ansatz\">Ansatz</h3>\n<span class=\"paragraph\">An ansatz is ...</span></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "kolV",
+      "id": "vblA",
       "code_hash": "97acf59eaf215f1ba93b995baea394c7",
       "outputs": [
         {
@@ -45,13 +45,13 @@
       "console": []
     },
     {
-      "id": "wtVx",
-      "code_hash": null,
+      "id": "bkHC",
+      "code_hash": "0eb641a0af370129b13ff07c8b2e6c63",
       "outputs": [],
       "console": []
     },
     {
-      "id": "tQwb",
+      "id": "lEQa",
       "code_hash": "5bd3c4d3f970890731cc5f1f5f88e146",
       "outputs": [
         {
